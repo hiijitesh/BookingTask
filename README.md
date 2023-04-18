@@ -1,4 +1,3 @@
-# Assignment
 
 How to run the code:
 
