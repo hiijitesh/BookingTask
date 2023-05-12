@@ -1,6 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
 	const resource = sequelize.define(
-		"resource",
+		'resource',
 		{
 			resource_name: {
 				type: DataTypes.STRING,
@@ -10,8 +10,8 @@ module.exports = (sequelize, DataTypes) => {
 			},
 		},
 		{
-			updatedAt: "updated_at",
-			createdAt: "created_at",
+			updatedAt: 'updated_at',
+			createdAt: 'created_at',
 		}
 	);
 	return resource;
