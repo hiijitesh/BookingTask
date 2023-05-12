@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { dbConnection } = require('./database/db_config');
+const { dbConnection } = require('./database/database');
 const PORT = process.env.PORT || 1234;
 
 const app = express();

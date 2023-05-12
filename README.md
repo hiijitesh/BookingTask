@@ -1,5 +1,5 @@
 
-How to run the code:
+### How to run the code?
 
 First fill neccessary variable names in .env files according to your system such as
 db user, db password, db name(db should be first created in MySQL before running the code)
@@ -33,4 +33,3 @@ send refreshToken as JSON data with body
 ->
 /add-email
 send email as JSON data with body as well as accessToken as bearer in POSTMAN
-
